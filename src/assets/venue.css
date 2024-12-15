@@ -1,0 +1,51 @@
+.venue-list {
+    padding: 20px;
+    background-color: #444;
+}
+
+.venue-list h2 {
+    color: cadetblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.venue-list-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.venue-item {
+    background-color: white;
+    border: 1px solid #666;
+    border-radius: 8px;
+    overflow: hidden;
+    width: calc(50% - 20px); /* Two items per row with a gap of 20px */
+    text-align: center;
+    padding: 15px;
+    color: black;
+    box-sizing: border-box; /* Include padding and border in the element’s total width and height */
+}
+
+.venue-item img {
+    width: 50%;
+    height: 200px; /* Fixed height for uniform image size */
+    object-fit: cover; /* Ensure images cover the specified area while maintaining aspect ratio */
+    border-bottom: 1px solid #666;
+}
+
+.venue-item h3 {
+    color: cadetblue;
+    margin: 10px 0;
+}
+
+.venue-item p {
+    color: #fff;
+    color: black;
+    margin: 5px 0;
+}
+
+.venue-item Button {
+    margin-top: 10px;
+}

@@ -1,0 +1,94 @@
+/* src/assets/eventDetail.css */
+.event-detail {
+    display: flex;
+    align-items: flex-start;
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.event-detail-image {
+    max-width: 300px;
+    max-height: 200px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.event-detail-content {
+    flex: 1;
+}
+
+.event-detail-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.event-detail-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.event-detail-charges {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.no-event {
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    color: #bbb;
+}
+.event-detail-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.event-detail-popup-content {
+
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+    color: cadetblue;
+    background-color: white;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: black;
+    padding: 12px;
+
+}
+
+.book-now-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+   
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book-now-button:hover {
+    background-color: #555;
+}

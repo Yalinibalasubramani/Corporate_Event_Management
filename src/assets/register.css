@@ -1,0 +1,169 @@
+.login, .register, .login_page
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.1px);
+    -webkit-backdrop-filter: blur(1.1px);
+    border: 1px solid rgba(255, 255, 255, 0.95);
+    
+    
+  }
+  .register_page
+  {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+
+}
+  
+
+  
+.body 
+{
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    background-image: url('https://i.pinimg.com/736x/6c/32/22/6c3222d2159503fdb3e48e8809f4fdd2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.body1
+{
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    background-image: url('register.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+  
+.error-container, .success-container 
+{
+    min-height: 20px;
+    color: red;
+}
+  
+.success-container 
+{
+    color: green;
+}
+  
+label 
+{
+    text-align: left;
+    padding: 0.25rem 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
+}
+  
+input, select 
+{
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc; /* Uniform border for all input elements */
+}
+  
+button 
+{
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+
+  
+.button 
+{
+    background: none;
+    color: black;
+}
+.forgot_password 
+{
+    background: none;
+    color: blue;
+}
+  
+  .nav {
+    text-decoration: underline;
+    background: none;
+    color: black;
+  }
+  
+  
+  
+  .login_heading, .register_heading, .resetpass, .forgotpass {
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .password-input-container {
+    position: relative;
+    width: 100%;
+}
+
+.password-input-container input {
+    width: 80%;
+    padding-right: 40px; /* Space for the icon */
+}
+
+.password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.cookie-consent-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.cookie-consent-button 
+{
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.cookie-consent-button:hover 
+{
+    background-color: #218838;
+}
+
+
+  

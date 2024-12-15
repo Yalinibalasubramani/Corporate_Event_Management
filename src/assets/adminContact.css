@@ -1,0 +1,84 @@
+.admin-contact-container 
+{
+    padding: 20px;
+}
+  
+  .admin-header 
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .back-button 
+  {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .back-button:hover 
+  {
+    background-color: #0056b3;
+  }
+  
+  .admin-contact-table 
+  {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  
+  .admin-contact-table td 
+  {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  .admin-contact-table th 
+  {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    color: black;
+  }
+  
+  .admin-contact-table th 
+  {
+    background-color: #f2f2f2;
+  }
+  
+  .delete-button 
+  {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .delete-button:hover 
+  {
+    background-color: #c82333;
+  }
+  .mail-button:hover 
+  {
+    background-color: blue;
+  }
+  .mail-button
+  {
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 15px;
+    background-color: #007bff;
+  }
+  

@@ -1,0 +1,220 @@
+/* Universal Styles for Register */
+.register-body, .register-body1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.register-body {
+    background-color: #f0f2f5;
+    background-image: url('img.jpg');
+}
+
+.register-body1 {
+    background-image: url('register.jpg');
+}
+
+/* Container Styles for Register */
+.register-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading Styles for Register */
+.register-heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form Styles for Register */
+.register-form {
+    width: 100%;
+}
+
+.register-form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.register-form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.register-form-group:last-child {
+    margin-right: 0;
+}
+
+.password-input-container {
+    position: relative;
+}
+
+.password-toggle-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #007BFF;
+    display: none;
+}
+
+.register-input:focus + .password-toggle-icon {
+    display: block;
+}
+
+.password-toggle-icon:hover {
+    color: #0056b3;
+}
+
+.register-label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.register-input, .register-select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    margin-bottom: 10px;
+    transition: border-color 0.3s;
+}
+
+.register-input:focus, .register-select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Button Styles for Register */
+.register-button {
+    padding: 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.register-button:hover {
+    transform: translateY(-2px);
+}
+
+.register-submit-button {
+    background-color: #28a745;
+    color: white;
+    margin-top: 10px;
+}
+
+.register-submit-button:hover {
+    background-color: #218838;
+}
+
+.register-secondary-button {
+    background-color: transparent;
+    color: #007BFF;
+    margin-top: 20px;
+}
+
+.register-secondary-button:hover {
+    color: #0056b3;
+}
+
+.register-forgot-password {
+    background: none;
+    color: #dc3545;
+    text-decoration: underline;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.register-forgot-password:hover {
+    color: #c82333;
+}
+
+/* Error and Success Styles for Register */
+.register-error {
+    color: #dc3545;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.register-success {
+    color: #28a745;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+/* Font Awesome Icon Styles for Register */
+.register-label i {
+    margin-right: 5px;
+    color: #007BFF;
+}
+
+/* Media Queries */
+@media (max-width: 565px) {
+    .register-container {
+        padding: 20px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .register-heading {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .register-form-row {
+        flex-direction: column;
+    }
+
+    .register-form-group {
+        margin-right: 0;
+    }
+
+    .password-toggle-icon {
+        right: 5px;
+    }
+
+    .register-label {
+        font-size: 12px;
+    }
+
+    .register-input, .register-select {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .register-button {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .register-forgot-password {
+        font-size: 12px;
+    }
+
+    .register-error, .register-success {
+        font-size: 10px;
+    }
+}

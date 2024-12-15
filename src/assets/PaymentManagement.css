@@ -1,0 +1,99 @@
+/* PaymentManagement.css */
+
+/* General Page Styling */
+.payment-management {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text for contrast */
+    padding: 20px;
+}
+
+.payment-management h2 {
+    color: cadetblue; /* Heading color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+.payment-management table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.payment-management table, th, td {
+    border: 1px solid #444; /* Darker border for table elements */
+}
+
+.payment-management th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.payment-management th {
+    background-color: cadetblue; /* Header background */
+    color: #fff; /* Header text color */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.payment-management tr:nth-child(even) {
+    background-color: #444; /* Alternate row background color */
+}
+
+.payment-management tr:hover {
+    background-color: #555; /* Hover effect for rows */
+}
+
+/* Button Styling */
+.payment-management button {
+    padding: 8px 12px;
+    background-color: #f44336; /* Delete button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.payment-management button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .payment-management table, th, td {
+        display: block;
+        width: 100%;
+    }
+
+    .payment-management th, td {
+        box-sizing: border-box;
+    }
+
+    .payment-management tr {
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .payment-management th {
+        background-color: #333; /* Dark background for headers on mobile */
+        color: cadetblue; /* Cadet blue text for headers on mobile */
+    }
+
+    .payment-management td {
+        text-align: right;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    .payment-management td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 15px;
+        width: calc(50% - 30px);
+        white-space: nowrap;
+        text-align: left;
+        font-weight: bold;
+    }
+}
